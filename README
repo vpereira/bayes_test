@@ -1,1 +1,12 @@
 it still not ready. it is just a test app to show how to use the acts_as_bayes
+
+to run it:
+
+rake db:seed
+
+start a server and try to create a new entry.
+It will classify it automatically.
+
+Please, read the db/seeds to see which kind of theme is interesting. It is just matter of training =)
+
+
