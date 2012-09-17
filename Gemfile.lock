@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/vpereira/acts_as_bayes.git
-  revision: 51529896d6703acf376eedd21d0a450c908f91f1
+  revision: ad84714ce7c83fd2f09d7e7222a1daae854ee3ab
   specs:
     acts_as_bayes (0.0.1)
       minitest
