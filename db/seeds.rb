@@ -5,6 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-BayesCategory.create! :category=>"Interesting"
-BayesCategory.create! :category=>"Trash"
+#BayesCategory.create! :category=>"Interesting"
+#BayesCategory.create! :category=>"Trash"
+Article.create(:title=>"Enlarge your Tenis",:body=>"Wow buy now, thats awesome. this Tenis")
+a = Article.last
+a.train("Trash")
+Article.create(:title=>"MapReduce is awesome",:body=>"MapReduce is awesome to deal with big data")
+a = Article.last
+a.train("Interesting")
+Article.create(:title=>"MapReduce works well",:body=>"MapReduce is way faster than the normal paradigm to aggregate data")
+a = Article.last
+a.train("Interesting")
 
